@@ -19,8 +19,8 @@ struct ContentView: View {
             }) {
                 Text("im so tired")
             }
-            .padding(3)
-            .background(Color.blue.opacity (0.5))
+            .padding(5)
+            .background(Color.blue.opacity (0.3))
             .cornerRadius(12)
         }
         .alert(isPresented: $showingAlert,
