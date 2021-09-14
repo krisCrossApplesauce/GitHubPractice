@@ -12,7 +12,7 @@ struct ContentView: View {
     
     var body: some View {
         VStack {
-            Text("I am saying words")
+            Text("i got 3 hours of sleep")
                 .padding()
             Button(action: {
                 showingAlert = true
