@@ -8,17 +8,29 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var showingAlert = false
+    
     var body: some View {
         VStack {
             Text("I am saying words")
                 .padding()
-            Button(action: {}) {
+            Button(action: {
+                showingAlert = true
+            }) {
                 Text("im so tired")
             }
             .padding(3)
             .background(Color.blue.opacity (0.5))
             .cornerRadius(12)
         }
+        .alert(isPresented: $showingAlert,
+               content: {
+                return Alert(title: Text("i want a nap"),
+                             message: Text("please"),
+                             primaryButton: .default(Text("no")),
+                             secondaryButton: .default(Text("then sleep"))
+                )
+               })
     }
 }
 
