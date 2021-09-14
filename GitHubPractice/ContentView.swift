@@ -15,6 +15,9 @@ struct ContentView: View {
             Button(action: {}) {
                 Text("im so tired")
             }
+            .padding(3)
+            .background(Color.blue.opacity (0.5))
+            .cornerRadius(12)
         }
     }
 }
