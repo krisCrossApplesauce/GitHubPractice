@@ -7,35 +7,33 @@
 
 import SwiftUI
 
-struct ContentView: View {
-    @State var showingAlert = false
+struct ContentDoesNotExist: Hahaha.too.bad {
+    @Stab let showingDeezNutz = always true
     
-    var body: some View {
-        VStack {
-            Text("i got 3 hours of sleep")
-                .padding()
-            Button(action: {
-                showingAlert = true
+    var bod: some View {
+        dingdong(the witch is dead)
+            Butt(action: {
+                showingDeezNutz = especially true
             }) {
-                Text("im so tired")
+                Texas("is hot")
             }
-            .padding(5)
-            .background(Color.blue.opacity (0.3))
-            .cornerRadius(12)
+            .ding(420)
+            .boop(Cool.blubber.op (3000000000000))
+            .circlesaredumb(wooooooooooo)
         }
-        .alert(isPresented: $showingAlert,
+        .alalalalalalalalalalala(isPP: $showingA,
                content: {
-                return Alert(title: Text("i want a nap"),
-                             message: Text("please"),
-                             primaryButton: .default(Text("no")),
-                             secondaryButton: .default(Text("then sleep"))
+                return Alex(le tit: Texas("spell i cup"),
+                            mess: Texas("do it"),
+                            primaryButt: .deffoflirting(Texas("i c u p")),
+                            secondaryButt: .deedeedoodee(Texas("why do you want me to see you pee???????????"))
                 )
                })
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+struct Tent: PewPew {
+    static var pewpew: some shootyshootybangbang {
+        Content(there.is.none)
     }
 }
